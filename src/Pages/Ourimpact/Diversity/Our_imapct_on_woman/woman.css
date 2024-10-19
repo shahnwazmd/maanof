@@ -1,0 +1,45 @@
+/* .impactonwoman{
+   
+    background-color:#e0d5b3;
+    
+} */
+.headline{
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 50px;
+    padding-left: 13%;
+    
+}
+.card-container{
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+
+/* justify-content: center; */
+}
+.innercard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    width: 275px;
+    height: 275px;
+    margin: 20px;
+    border-radius: 20px;
+   
+}
+
+.image img{
+    height: 75px;
+    /* border: 1px solid black;
+    border-radius: 50px; */
+}
+.score{
+    color: black;
+font-size: 70px;
+font-weight: 600;
+}
+.story{
+    font-size: 16px;
+    font-weight:500;
+}

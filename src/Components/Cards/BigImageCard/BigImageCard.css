@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800&display=swap");
+
+.BigImageCard{
+    margin: 15px;
+    margin-left: 8%;
+    margin-right: 8%;
+    font-family: Arial;
+    font-family: "Poppins", sans-serif;
+}
+.bigCard-image img{
+    width:100%;
+    height:46vh;
+}
+.BigImageCard .text-content{
+    margin-top: 10px;
+    display: flex;
+    text-align: left;
+  justify-content: space-between;
+}
+.BigImageCard .text-content{
+    width: 100%;
+}
+.BigImageCard .text-content .section-1{
+    width: 46%;
+}
+.BigImageCard .text-content .section-2{
+    width: 46%;
+}
+.BigImageCard .text-content .section-1 .special-section{
+    background-color: #f9f0d4;
+    font-size: 1.15rem;
+    padding: 17px;
+    border-radius: 29px;
+}
+.BigImageCard .text-content .section-2 .special-section{
+    font-size: 1.15rem;
+}
+@media (max-width:850px) {
+    .BigImageCard .text-content{
+    flex-direction: column;
+    }  
+    .BigImageCard .text-content .section-1{
+        width: 100%;
+        text-align: center;
+    }
+    .BigImageCard .text-content .section-2{
+        width: 100%;
+        text-align: left;
+    }
+}
